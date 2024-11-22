@@ -39,7 +39,7 @@ jobs:
     - name: Build project
       run: cpptesttrace make clean all
 
-    # Runs code analysis with C/C++test.
+      Runs code analysis with C/C++test.
     - name: Run C/C++test
       # Use the 'run-cpptest-action' GitHub action.
       uses: parasoft/run-cpptest-action@2.0.2
